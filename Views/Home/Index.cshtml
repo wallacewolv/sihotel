@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+
+<main class="index-body">
+    <section class="porque-sihotel" id="porque-sihotel">
+        <div class="sihotel-img">
+            <img src="imagens/pq.gif" id="jr">
+        </div>
+        <div class="container-sihotel">
+            <div class="grid">
+                <div>
+                    <h1>Por Que Hotel Guanabara? </h1>
+                    <h2>Além de promover extremo conforto e satisfação em suas hospedagens, o Hotel Guanabara conta com o sistema Sihotel, também conhecido por ser uma aplicação extremamente ágil e eficiente para o gerenciamento do cliente, de modo a lhe propor o maior conforto e satisfação. </h2>
+                </div>
+                <a class="conhecerPacotes" asp-area="" asp-controller="Pacotes" asp-action="Index">Conheça nossos pacotes &nbsp;&nbsp;></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="pacotes" id="pacotes">
+        <div class="container2">
+            <div class="grid2">
+                <div class="principais-ofertas">
+                    <h1>PRINCIPAIS OFERTAS</h1>
+                </div>
+
+                <div class="localidades">
+                    <span class="imagem-localidade">
+                        <img src="imagens/suite-junior.jpg" id="jr">
+                    </span>
+                    <h1>Suíte Júnior</h1>
+                    <h2>Av. Paulista - SP</h2>
+
+                    <div class="preco-localidades">
+                        <span class="preco-de">De <span class="preco">R$1500.00</span></span>
+                        <span class="preco-por">Por <span class="preco2">R$1199.90</span></span>
+                    </div>
+                    <a class="saiba-mais" asp-area="" asp-controller="Junior" asp-action="Index">Saiba mais&nbsp;></a>
+                </div>
+
+                <div class="localidades">
+                    <span class="imagem-localidade">
+                        <img src="imagens/suite-presi.jpeg" id="pr">
+                    </span>
+                    <h1>Suíte Presidencial</h1>
+                    <h2>Av. Paulista - SP</h2>
+
+                    <div class="preco-localidades">
+                        <span class="preco-de">De <span class="preco">R$3999.90</span></span>
+                        <span class="preco-por">Por <span class="preco2">R$1799.99</span></span>
+                    </div>
+
+                    <a class="saiba-mais" asp-area="" asp-controller="Presidencial" asp-action="Index">Saiba mais&nbsp;></a>
+                </div>
+
+                <div class="localidades" id="ca">
+                    <span class="imagem-localidade">
+                        <img src="imagens/suite-casal.jpg">
+                    </span>
+                    <h1>Quarto de casal</h1>
+                    <h2>Av. Paulista - SP</h2>
+
+                    <div class="preco-localidades">
+                        <span class="preco-de">De <span class="preco">R$799.90</span></span>
+                        <span class="preco-por">Por <span class="preco2">R$659.00</span></span>
+                    </div>
+
+                    <a class="saiba-mais" asp-area="" asp-controller="Casal" asp-action="Index">Saiba mais&nbsp;></a>
+                </div>
+
+                <div class="conhecer-destinos">
+                    <a asp-area="" asp-controller="Pacotes" asp-action="Index"> > </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-nos" id="sobre-nos">
+        <div class="container3">
+            <div class="grid3">
+                <div class="img-sobrenos">
+                    <img src="imagens/img-about.jpg" alt="">
+                </div>
+                <div class="conteudo-sobrenos">
+                    <h2>
+                        O Sihotel tem o desafio de manter sempre a praticidade, segurança e
+                        comodidade para seus clientes e encontrar seu espaço junto aos hotéis espalhados ao redor do
+                        mundo, simplificando suas gerências e atendendo suas variadas demandas.
+                    </h2>
+                    <a class="button-sobre-nos" asp-area="" asp-controller="Sobre" asp-action="Index">Sobre nós&nbsp;></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,109 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.pacotes-section {
+    height: 26rem;
+    background: linear-gradient(150deg, #f1f1f1, #e6e6e6);
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px #808080;
+    color: #0a0a0a;
+}
+
+    .pacotes-section:first-child {
+        margin-top: -15px;
+    }
+
+/* Imagem */
+.img-quarto img {
+    height: 24rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px 1px #7e7e7e;
+    border-radius: 4px;
+}
+
+/* Div informações do quarto */
+.info-quarto {
+    margin-left: 6rem;
+    margin-top: 1.8rem;
+    width: 24rem;
+}
+
+    .info-quarto h2 {
+        font-size: 2.8rem;
+        color: #000000;
+        font-weight: bold;
+    }
+
+/* Div tamanho e camas */
+.detalhes-quarto {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.detalhes-p {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.detalhe {
+    font-weight: 600;
+    color: #000000;
+}
+
+/* Div horário checkin e checkout */
+.hora-check {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.check-info {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+/* Div preços */
+.preco-quarto {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.preco-de {
+    text-decoration: line-through #9a2b27;
+    font-size: 1.7rem;
+    margin-left: 5.7rem;
+}
+
+.preco-por {
+    color: #048814;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-left: 5.7rem;
+}
+
+.btn-reservar {
+    margin-left: 8rem;
+    margin-top: 10rem;
+    padding: 11px 34px;
+    height: 4rem;
+    background: linear-gradient(to right, #007170, #008B66);
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 1.7rem;
+    transition: 0.2s;
+}
+
+    .btn-reservar:hover {
+        margin-left: 11rem;
+        background: linear-gradient(to right, #008B6E, #007170);
+        color: #ffffff;
+    }

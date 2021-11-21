@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+<main class="main-login">
+
+    <div class="formulario">
+        <span class="logo-container"><img src="imagens/logo-login.png" draggable="false"></span>
+        <span class="bem-vindo">Bem-vindo!</span>
+        <span class="entrar-conta">Entre com sua conta</span>
+        <form action="#" method="get">
+
+            <div class="input-field">
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="input-field">
+                <input type="password" name="password" id="password" placeholder="Senha" required>
+            </div>
+            <input type="submit" value="Entrar" class="input-submit">
+
+            <div class="form-links">
+                <span class="criar-conta">
+                    Novo aqui? 
+                    <a class="criar" asp-area="" asp-controller="Cadastro" asp-action="Index">Criar uma conta</a>
+                </span>
+            </div>
+
+        </form>
+    </div>
+</main>

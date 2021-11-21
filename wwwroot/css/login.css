@@ -1,0 +1,110 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+.main-login {
+    height: 53rem;
+}
+
+.main-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    height: 34rem;
+    width: 43rem;
+    margin-top: 10vh;
+    padding-top: 2rem;
+    border: solid 1px #5c8d82;
+    border-radius: 5px;
+    background: #25b08f;
+    box-shadow: 5px 5px 15px #d9dadd;
+}
+
+.logo-container img {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.bem-vindo {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #282828;
+}
+
+.entrar-conta {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    color: #282828;
+}
+
+.input-field input {
+    height: 3rem;
+    width: 21rem;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #1b1b1b;
+    font-size: 1rem;
+}
+
+.input-submit {
+    height: 3rem;
+    width: 21rem;
+    font-size: 1.3rem;
+    background: linear-gradient(120deg, #282828, #3a3a3a);
+    border: solid 1px #282828;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+    .input-submit:hover {
+        background: linear-gradient(120deg, #3a3a3a, #282828);
+        cursor: pointer;
+    }
+
+.form-links {
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.criar-conta {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.criar {
+    margin-left: 0.3rem;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 1rem;
+    background: linear-gradient(120deg, #282828, #3a3a3a);
+    color: #fff;
+    font-weight: unset;
+    border: solid 1px #282828;
+    border-radius: 5px;
+}
+
+.criar-conta a:hover {
+    background: linear-gradient(120deg, #3a3a3a, #282828);
+    font-weight: unset;
+    text-decoration: none;
+    color: #fff;
+}

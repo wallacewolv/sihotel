@@ -1,0 +1,131 @@
+﻿/* NAVBAR */
+html {
+    font-size: 14px;
+    width: 100% !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #25b08f;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+    header ul {
+        list-style: none;
+        display: flex;
+    }
+
+        header ul li {
+            position: relative;
+            padding: 8px;
+        }
+
+    header a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: width .2s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+
+
+.logo {
+    font-size: 2.3rem;
+    color: #ffffff;
+    text-shadow: 2px 1px 1px #000;
+    font-weight: 600;
+    margin-left: 5rem;
+    letter-spacing: 0.1em;
+}
+
+/* FOOTER */
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+    .redes-sociais img {
+        height: 30px;
+        padding: 10px;
+    }
+
+        .redes-sociais img:hover {
+            opacity: 0.8;
+        }
+
+.logo-footer {
+    font-size: 1.5rem;
+    color: #cfcfcf;
+    margin-left: 5rem;
+    letter-spacing: 0.1em;
+}
+
+.footer-contato a {
+    margin-right: 15px;
+    color: #cfcfcf;
+}
+
+    .footer-contato a:hover {
+        border-bottom: solid 1px grey;
+    }
+
+/* RESPONSIVIDADE NAV */
+@media (max-width: 710px) {
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    header {
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: -40px;
+    }
+
+        header a {
+            font-size: 1rem;
+        }
+}
+
+
+/* RESPONSIVIDADE FOOTER */
+@media (max-width: 570px) {
+    .footer-contato {
+        font-size: 12px;
+    }
+
+    .logo-footer {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+
+    .redes-sociais img {
+        height: 20px;
+    }
+}

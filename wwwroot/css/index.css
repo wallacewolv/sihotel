@@ -1,0 +1,329 @@
+﻿
+html {
+    font-size: 14px;
+    width: 100% !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.index-body {
+    width: 100%;
+    height: 100%
+}
+
+.porque-sihotel {
+    display: flex;
+    align-items: center;
+    height: 35rem;
+    border-bottom: solid 2px #252525;
+}
+
+.sihotel-img {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 106%;
+}
+
+    .sihotel-img > img {
+        vertical-align: middle;
+        border-style: none;
+        width: 100%;
+        height: 97.2%;
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.container-sihotel {
+    margin: 0 auto 0 2rem;
+    max-width: 1450px;
+    position: absolute;
+}
+
+.porque-sihotel h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    text-shadow: 0px 1px 10px #020202;
+    color: #fff;
+    font-weight: 600;
+}
+
+.porque-sihotel h1 {
+    font-size: 2.5rem;
+    text-shadow: 0px 1px 10px #020202;
+    color: #fff;
+    font-weight: bold
+}
+
+.conhecerPacotes {
+    width: 40%;
+    margin-left: 36rem;
+    font-size: 1.4rem;
+    top: 1.5rem;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(to right, #007170, #008B66);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+    .conhecerPacotes:hover {
+        width: 42%;
+        font-size: 1.6rem;
+        padding: 1.2rem;
+        border-radius: 8px;
+        border: solid 2px #007170;
+        background: linear-gradient(to right, #008B6E, #007170);
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold
+    }
+
+.pacotes {
+    background: linear-gradient(180deg, #008B6E, #007170);
+    height: 30rem;
+    border-bottom: solid 2px #252525;
+}
+
+.container2 {
+    margin: 0 auto;
+    padding-top: 3rem;
+    max-width: 1700px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 9% 16%;
+    align-items: center;
+    grid-gap: 25px;
+}
+
+.principais-ofertas {
+    font-size: 1.5rem;
+    color: #fafffb;
+    text-shadow: 2px 1px 1px #0d3c31;
+    text-align: center;
+}
+
+.localidades {
+    border: solid 1px #000000;
+    border-radius: 8px;
+    background-image: linear-gradient(150deg, #0c0c0c, #161616);
+    height: 360px;
+    width: 340px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .localidades h1 {
+        padding-top: 15px;
+        color: #fff;
+        font-weight: 100;
+        font-size: 1.4rem;
+    }
+
+    .localidades h2 {
+        font-weight: unset;
+        font-size: 1.3rem;
+        margin-top: 2px;
+        color: #a2a2a2;
+    }
+
+.preco-localidades {
+    margin-top: 10px;
+    margin-left: -70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none
+}
+
+.preco-localidades {
+    color: #fff;
+}
+
+.preco-de {
+    position: relative;
+    right: 5.5rem;
+    font-size: 1.1rem;
+    margin-top: 0px;
+}
+
+.preco-por {
+    position: relative;
+    font-size: 1.3rem;
+    right: 5.5rem;
+}
+
+.preco {
+    text-decoration: line-through #9a2b27;
+}
+
+.preco2 {
+    font-size: 1.5rem;
+    color: #33b944;
+}
+
+.imagem-localidade img {
+    height: 180px;
+    border: solid 1px #222222;
+    box-shadow: 0 10px 50px #181818;
+}
+
+.conhecer-destinos {
+    margin-left: 14rem;
+    margin-top: 10px;
+    background: linear-gradient(150deg, #353535, #181818);
+    border: solid 1px #0c0c0c;
+    border-radius: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+    .conhecer-destinos a {
+        color: #fff;
+    }
+
+    .conhecer-destinos:hover {
+        background: linear-gradient(150deg, #181818, #5c5c5c);
+        border: solid 1px #0c0c0c;
+    }
+
+.saiba-mais {
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 14rem;
+    background-color: #25b08f;
+    padding: 8px;
+    color: #fff;
+    border: solid 1px #25b08f;
+    border-radius: 5px;
+}
+
+    .saiba-mais:hover {
+        background-color: #1b7c66;
+        border: solid 1px #1b7c66;
+        text-decoration: none;
+        color: #fff;
+    }
+
+.sobre-nos {
+    height: 38rem;
+    background-image: linear-gradient(20deg, #095D71, #008982);
+    border-bottom: solid 2px #252525;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.container3 {
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 1750px;
+}
+
+.img-sobrenos img {
+    height: 440px;
+    margin-top: 5px;
+    margin-left: 50px;
+    border: solid 2px #cfcfcf;
+    border-radius: 30px/10px;
+    box-shadow: 1px 5px 10px #D5FADD;
+}
+
+.conteudo-sobrenos {
+    margin-bottom: 80px;
+    margin-right: 200px;
+}
+
+    .conteudo-sobrenos h1 {
+        font-size: 3.5rem;
+        font-weight: bolder;
+        color: #fafffb;
+        text-shadow: 2px 1px 1px #0d3c31;
+    }
+
+    .conteudo-sobrenos h2 {
+        margin-top: 40px;
+        margin-left: 20px;
+        font-weight: lighter;
+        font-weight: 200;
+        color: #fff;
+        text-shadow: 2px 1px 5px #484848;
+    }
+
+    .conteudo-sobrenos .button-sobre-nos {
+        position: absolute;
+        margin-top: 2rem;
+        margin-left: 10rem;
+        background-color: #25b08f;
+        padding: 12px 25px;
+        color: #fff;
+        border: solid 1px #25b08f;
+        border-radius: 8px;
+        font-size: 1.7rem;
+        transition: 0.2s;    
+    }
+
+        .conteudo-sobrenos .button-sobre-nos:hover {
+            background-color: #15a083;
+            border: solid 1px #1b7c66;
+            margin-left: 9rem;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 11px;
+            color: #fff;
+            font-size: 2.1rem;
+            font-weight: bold;
+        }
+
+.container4 {
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 1000px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.contato {
+    height: 450px;
+    background-color: #f2f2f2;
+}
+
+.info-contato h1 {
+    font-size: 2rem;
+}
+
+.infos-endereco {
+    padding-top: 30px;
+}
+
+    .infos-endereco p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }

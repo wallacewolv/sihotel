@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<main class="main-cadastro">
+    <div class="form-cadastro">
+        <span class="logo-container-cadastro"><img src="imagens/logo-login.png" draggable="false"></span>
+        <span class="cadastro-frase">Cadastre-se agora!</span>
+        <form action="#" method="post">
+            <div class="input-field-cadastro">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+            </div>
+
+            <div class="input-field-cadastro">
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+                <input type="number" name="numero" id="numero" placeholder="Nº" required>
+
+            </div>
+
+            <div class="input-field-cadastro">
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <input type="text" name="complemento" id="complemento" placeholder="Complemento">
+            </div>
+
+            <div class="input-field-cadastro">
+                <input type="text" name="rg" id="rg" autocomplete="off" placeholder="RG" required>
+                <input type="text" name="cep" id="cep" autocomplete="off" placeholder="CEP" required>
+            </div>
+
+            <div class="input-field-cadastro">
+                <input type="text" name="cpf" id="cpf" autocomplete="off" placeholder="CPF" required>
+                <input type="text" name="telefone" id="telefone" autocomplete="off" placeholder="Telefone" maxlength="14" required>
+            </div>
+
+
+            <input type="submit" value="Cadastrar" class="input-submit-cadastro">
+        </form>
+    </div>
+</main>

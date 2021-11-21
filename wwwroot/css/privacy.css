@@ -1,0 +1,35 @@
+﻿.main-privacy-policy {
+    padding: 0 7rem 7rem 7rem;
+}
+
+    .main-privacy-policy > h2:first-child {
+        font-weight: bold;
+    }
+
+.principal {
+    padding-left: 4rem;
+}
+
+li::marker {
+    color: #25b08f;
+    font-size: 2rem;
+}
+
+li > h2 {
+    color: #25b08f;
+}
+
+li > p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -4rem;
+}
+
+li > ol > li {
+    margin-left: 1rem;
+}
+
+    li > ol > li::marker {
+        color: black;
+        font-size: 1rem;
+    }

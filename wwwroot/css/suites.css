@@ -1,0 +1,103 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main-suite {
+    height: 50rem;
+}
+
+.container-suite {
+    background: linear-gradient( 0deg, #cccccc, #e6e6e6);
+    margin: 3rem 2rem 0 2rem;
+    height: 41rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img-quarto-suite img {
+    height: 28rem;
+    margin-left: 2rem;
+    border-radius: 4px;
+}
+
+.info-quarto-suite {
+    margin-left: 1.5rem;
+}
+
+    .info-quarto-suite h2 {
+        font-size: 2.8rem;
+        margin-bottom: 3rem;
+        color: #121212;
+        text-shadow: 2px 2px 2px #727272;
+        font-weight: bold;
+    }
+
+.preco-quarto-suite {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+    .preco-quarto-suite > p:first-child {
+        margin-bottom: 0rem;
+    }
+
+.preco-de-suite {
+    text-decoration: line-through #9a2b27;
+    font-size: 1.7rem;
+}
+
+.preco-por-suite {
+    color: #048814;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.hora-check-suite {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+    .hora-check-suite > p:first-child {
+        margin-bottom: 0rem;
+    }
+
+.check-info-suite {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.detalhes-quarto-suite {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+    .detalhes-quarto-suite > p:first-child {
+        margin-bottom: 0rem;
+    }
+
+.detalhe-suite {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.btn-enviar-suite {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    padding: 7px 34px;
+    height: 4rem;
+    background: linear-gradient(to right, #007170, #008B66);
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 1.7rem;
+    transition: 0.2s;
+}
+
+    .btn-enviar-suite:hover {
+        margin-left: 4rem;
+        padding: 4px 38px;
+        background: linear-gradient(to right, #008B6E, #007170);
+        border-radius: 7px;
+        font-size: 2rem;
+        cursor: pointer;
+    }

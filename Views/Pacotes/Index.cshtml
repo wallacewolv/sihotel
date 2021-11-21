@@ -1,0 +1,117 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Pacotes";
+}
+
+<main>
+    <section class="pacotes-section">
+        <div class="img-quarto">
+            <img src="imagens/suite-junior.jpg">
+        </div>
+
+        <div class="info-quarto">
+            <h2>Suíte Junior</h2>
+
+            <div class="detalhes-quarto">
+                <p class="detalhes-p"><span class="detalhe">Tamanho: </span>20m²</p>
+                <p class="detalhes-p"><span class="detalhe">Camas: </span>1 casal</p>
+            </div>
+
+            <div class="hora-check">
+                <p class="detalhes-p"><span class="check-info">Checkin:</span> a partir das 8h</p>
+                <p class="detalhes-p"><span class="check-info">Checkout:</span> até 12h</p>
+            </div>
+
+            <div class="preco-quarto">
+                <p class="detalhes-p">De <span class="preco-de">R$1500.00</span></p>
+                <p class="detalhes-p">Por <span class="preco-por">R$1199.90</span></p>
+            </div>
+        </div>
+
+        <a class="btn-reservar btn1" asp-area="" asp-controller="Junior" asp-action="Index">Reserve agora &nbsp;></a>
+    </section>
+
+    <section class="pacotes-section">
+        <div class="img-quarto">
+            <img src="imagens/suite-presi.jpeg">
+        </div>
+
+        <div class="info-quarto">
+            <h2>Suíte Presencial</h2>
+
+            <div class="detalhes-quarto">
+                <p class="detalhes-p"><span class="detalhe">Tamanho: </span>50m²</p>
+                <p class="detalhes-p"><span class="detalhe">Camas: </span>1 casal e 1 solteiro</p>
+            </div>
+
+            <div class="hora-check">
+                <p class="detalhes-p"><span class="check-info">Checkin:</span> a partir das 7h</p>
+                <p class="detalhes-p"><span class="check-info">Checkout:</span> até 15h</p>
+            </div>
+
+            <div class="preco-quarto">
+                <p class="detalhes-p">De <span class="preco-de">R$3999.90</span></p>
+                <p class="detalhes-p">Por <span class="preco-por">R$1799.99</span></p>
+            </div>
+        </div>
+
+        <a class="btn-reservar btn2" asp-area="" asp-controller="Presidencial" asp-action="Index">Reserve agora &nbsp;></a>
+    </section>
+
+    <section class="pacotes-section">
+        <div class="img-quarto">
+            <img src="imagens/suite-casal.jpg">
+        </div>
+
+        <div class="info-quarto">
+            <h2>Suíte Casal</h2>
+
+            <div class="detalhes-quarto">
+                <p class="detalhes-p"><span class="detalhe">Tamanho: </span>10m²</p>
+                <p class="detalhes-p"><span class="detalhe">Camas: </span>1 casal</p>
+            </div>
+
+            <div class="hora-check">
+                <p class="detalhes-p"><span class="check-info">Checkin:</span> a partir das 10h</p>
+                <p class="detalhes-p"><span class="check-info">Checkout:</span> até 11h</p>
+            </div>
+
+            <div class="preco-quarto">
+                <p class="detalhes-p">De <span class="preco-de">R$799.90</span></p>
+                <p class="detalhes-p">Por <span class="preco-por">R$659.00</span></p>
+            </div>
+        </div>
+
+        <a class="btn-reservar btn3" asp-area="" asp-controller="Casal" asp-action="Index">Reserve agora &nbsp;></a>
+    </section>
+
+    <section class="pacotes-section">
+        <div class="img-quarto">
+            <img src="imagens/suite-solteiro.jpg">
+        </div>
+
+        <div class="info-quarto">
+            <h2>Quarto de solteiro</h2>
+
+            <div class="detalhes-quarto">
+                <p class="detalhes-p"><span class="detalhe">Tamanho: </span>10m²</p>
+                <p class="detalhes-p"><span class="detalhe">Camas: </span>2 solteiro</p>
+            </div>
+
+            <div class="hora-check">
+                <p class="detalhes-p"><span class="check-info">Checkin:</span> a partir das 12h</p>
+                <p class="detalhes-p"><span class="check-info">Checkout:</span> até 10h</p>
+            </div>
+
+            <div class="preco-quarto">
+                <p class="detalhes-p">De <span class="preco-de">R$599.00</span></p>
+                <p class="detalhes-p">Por <span class="preco-por">R$459.90</span></p>
+            </div>
+        </div>
+
+        <a class="btn-reservar btn4" asp-area="" asp-controller="Solteiro" asp-action="Index">Reserve agora &nbsp;></a>
+    </section>
+
+</main>

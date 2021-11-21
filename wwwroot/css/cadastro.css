@@ -1,0 +1,71 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main-cadastro {
+    height: 53rem;
+}
+
+.main-cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    height: 38rem;
+    width: 40rem;
+    margin-top: 10vh;
+    padding-top: 2rem;
+    border: solid 1px #5c8d82;
+    border-radius: 5px;
+    background: #25b08f;
+    box-shadow: 5px 5px 15px #d9dadd;
+}
+
+.logo-container-cadastro img {
+    position: relative;
+    margin-top: 10px;
+    border-radius: 5px;
+    left: 16.5rem;
+}
+
+.cadastro-frase {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    left: 35%;
+    color: #282828;
+}
+
+.input-field-cadastro input {
+    position: relative;
+    height: 2.5rem;
+    width: 15rem;
+    left: 10%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #1b1b1b;
+    font-size: 1.05rem;
+}
+
+.input-submit-cadastro {
+    height: 3rem;
+    width: 20.5rem;
+    font-size: 1.3rem;
+    background: linear-gradient(120deg, #282828, #3a3a3a);
+    border: solid 1px #282828;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 4%;
+    margin-left: 24%;
+}
+
+    .input-submit-cadastro:hover {
+        background: linear-gradient(120deg, #3a3a3a, #282828);
+        cursor: pointer;
+    }
