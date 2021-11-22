@@ -1,133 +1,98 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-    width: 100% !important;
-}
-
-nav.navbar {
-    background: #25b08f;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 1.5rem;
-    width: 100%;
-    height: 65px;
-}
-
-a .title {
-    font-size: 2.3rem;
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 2px 1px 1px #000;
-    font-weight: 600;
-    margin-left: 5rem;
-    letter-spacing: 0.1em;
-}
-
-a.nav-link {
-    width: 100%;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 1.8rem;
-}
-
-    a.nav-link::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: rgb(255, 255, 255);
-        transition: width .2s;
-    }
-
-    a.nav-link:hover::after {
-        width: 100%;
-    }
-
-/* Provide sufficient contrast against white background */
+﻿@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 html {
     font-size: 14px;
     width: 100% !important;
 }
 
-
-.border-top {
-    border-top: 1px solid #e5e5e5;
-}
-
-.border-bottom {
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-    font-size: 1rem;
-    line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 70px;
-    font-family: "Roboto", sans-serif;
-}
-
-/* Main Index */
-
-.footer {
+header {
+    background-color: #25b08f;
+    height: 5rem;
     display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left: 3rem;
     align-items: center;
+    margin-bottom: 1rem;
+}
+
+    header ul {
+        list-style: none;
+        display: flex;
+        margin-right: 1rem;
+    }
+
+        header ul li {
+            position: relative;
+            padding: 8px;
+        }
+
+    header > .logo-index > a {
+        font-size: 2.7rem;
+        color: #ffffff;
+        text-shadow: 2px 1px 1px #000;
+        font-weight: 600;
+        margin-left: 2rem;
+        letter-spacing: 0.1em;
+    }
+
+    header > ul > li > .cool-link {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+        header > ul > li > .cool-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: rgb(255, 255, 255);
+            transition: width .2s;
+        }
+
+        header > ul > li > .cool-link:hover::after {
+            width: 100%;
+        }
+
+
+/* FOOTER */
+.footer-index {
+    height: 70px;
+    display: flex;
     justify-content: space-around;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    white-space: nowrap;
-    line-height: 70px; /* Vertically center the text there */
     background-color: #000;
-}
-
-.sihotel-ancora a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #cfcfcf;
-    margin-left: 5rem;
-}
-
-
-.footer-contato a {
-    text-decoration: none;
-    margin-right: 15px;
-    color: #cfcfcf;
+    align-items: center;
 }
 
 .redes-sociais {
-    height: 100%;
-    width: 12.5rem;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
-.a-redes-sociais {
-    height: 30px;
+    .redes-sociais img {
+        height: 30px;
+        padding: 10px;
+    }
+
+        .redes-sociais img:hover {
+            opacity: 0.8;
+        }
+
+.logo-footer {
+    font-size: 1.5rem;
+    color: #cfcfcf;
+    margin-left: 5rem;
+    letter-spacing: 0.1em;
 }
+
+.footer-contato a {
+    margin-right: 15px;
+    color: #cfcfcf;
+    font-size: 1.2rem;
+}
+
+    .footer-contato a:hover {
+        border-bottom: solid 1px grey;
+        text-decoration: none;
+    }

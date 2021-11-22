@@ -1,8 +1,4 @@
 ﻿
-html {
-    font-size: 14px;
-    width: 100% !important;
-}
 
 a:hover {
     text-decoration: none;
@@ -67,31 +63,29 @@ h1 {
 }
 
 .conhecerPacotes {
-    width: 40%;
+    width: 30%;
     margin-left: 36rem;
-    font-size: 1.4rem;
     top: 1.5rem;
     position: relative;
     color: #fff;
     background: linear-gradient(to right, #007170, #008B66);
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
     border-radius: 5px;
     font-size: 1.5rem;
-    text-decoration: none;
     transition: 0.2s;
 }
 
     .conhecerPacotes:hover {
-        width: 42%;
+        width: 32%;
         font-size: 1.6rem;
-        padding: 1.2rem;
+        padding: 2.3rem;
         border-radius: 8px;
         border: solid 2px #007170;
         background: linear-gradient(to right, #008B6E, #007170);
         color: #ffffff;
         text-decoration: none;
-        font-weight: bold
+        font-weight: 800;
     }
 
 .pacotes {
